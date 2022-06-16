@@ -14,3 +14,7 @@ func main() {
 	e.Logger.Fatal(e.Start(":1323"))
 
 }
+
+func add(a, b int) int {
+	return a + b
+}
